@@ -34,7 +34,7 @@ yes.addEventListener("click", () => {
     }
 
     setTimeout(()=>{
-        alert("Yayyy ❤️🥰");
+        alert("See You Soon Blondy ❤️🥰");
     },500);
 
 });
