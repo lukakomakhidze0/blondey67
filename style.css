@@ -1,0 +1,56 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg, #ffc1dc, #fff);
+    font-family: Arial, sans-serif;
+    overflow: hidden;
+}
+
+.card {
+    width: 350px;
+    padding: 40px;
+    background: white;
+    border-radius: 30px;
+    text-align: center;
+    box-shadow: 0 10px 35px rgba(255,80,150,0.25);
+}
+
+.cat {
+    font-size: 45px;
+}
+
+h1 {
+    color: #ff4f91;
+    font-size: 28px;
+}
+
+button {
+    border: none;
+    padding: 14px 30px;
+    margin: 10px;
+    border-radius: 25px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+#yes {
+    background: #ff4f91;
+    color: white;
+}
+
+#no {
+    background: #ddd;
+    position: fixed;
+}
+
+#answer {
+    color: #ff4f91;
+    margin-top: 20px;
+}
